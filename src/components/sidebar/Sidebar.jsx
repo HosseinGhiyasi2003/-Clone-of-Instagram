@@ -10,7 +10,7 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const Sidebar = () => {
   return (
-    <div className="border-r-2 border-[#e6e6e6] w-20 md:w-52 h-screen pr-4 pt-5 py-24 sticky">
+    <div className="border-r-2 border-[#232323]  w-20 md:w-52  pr-4 pt-5 py-24 fixed top-0  bottom-0">
       <Link className="w-32 flex">
         <img src="./logo.png" alt="" className="hidden md:block"/>
         <AiFillInstagram className="text-[22px] text-white block md:hidden ml-4" />

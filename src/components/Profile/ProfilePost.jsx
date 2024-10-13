@@ -1,5 +1,5 @@
 import React from "react";
-import postImg from "../../../public/post.jpg";
+import postImg from "../../assets/post.jpg";
 import {
   Avatar,
   Box,

@@ -4,6 +4,10 @@ import { RiFacebookBoxFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import authimg from '../../assets/auth.png'
+import logoimg from '../../assets/logo.png'
+import playstoreimg from '../../assets/playstore.png'
+import microsoftimg from '../../assets/microsoft.png'
 
 const Login = () => {
 
@@ -30,12 +34,12 @@ const Login = () => {
       <div className="container">
         <div className="flex justify-center items-center">
           <div className="hidden md:block">
-            <img src="./auth.png" alt="" />
+            <img src={authimg} alt="" />
           </div>
           <div className="flex flex-col">
             <div className="w-[300px] border-[1px] border-[#e6e6e6] md:mt-[50px] mt-[50px]  px-4">
               <div className="w-[200px] py-4">
-                <img src="./logo.png" alt="" />
+                <img src={logoimg} alt="" />
               </div>
               <form className="flex flex-col" onSubmit={handleSubmit(formSubmitting)}>
                 <input
@@ -80,12 +84,12 @@ const Login = () => {
             <span className="text-center mt-4">Get the app.</span>
             <div className="flex gap-2 justify-center mt-4">
               <img
-                src="./playstore.png"
+                src={playstoreimg}
                 className="w-32 cursor-pointer"
                 alt=""
               />
               <img
-                src="./microsoft.png"
+                src={microsoftimg}
                 className="w-32 cursor-pointer"
                 alt=""
               />

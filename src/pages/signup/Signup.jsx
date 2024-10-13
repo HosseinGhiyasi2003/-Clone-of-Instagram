@@ -4,6 +4,9 @@ import { RiFacebookBoxFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import authimg from '../../assets/auth.png'
+import logoimg from '../../assets/logo.png'
+
 
 const Signup = () => {
   const schema = yup.object({
@@ -36,12 +39,12 @@ const Signup = () => {
       <div className="container">
         <div className="flex justify-center items-center">
           <div className="hidden md:block">
-            <img src="./auth.png" alt="" />
+            <img src={authimg} alt="" />
           </div>
           <div className="flex flex-col">
             <div className="w-[300px] border-[1px] border-[#e6e6e6] md:mt-[50px] mt-[50px]  px-4">
               <div className="w-[200px] py-4">
-                <img src="./logo.png" alt="" />
+                <img src={logoimg} alt="" />
               </div>
               <p className="text-center mt-[-20px] pb-3 font-medium text-[#959595]">Sign up to see photos and videos from your friends.</p>
               <Link>

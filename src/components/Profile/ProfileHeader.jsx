@@ -1,4 +1,4 @@
-import postImg from "../../../public/post.jpg";
+import postImg from "../../assets/post.jpg";
 
 const ProfileHeader = () => {
   return (

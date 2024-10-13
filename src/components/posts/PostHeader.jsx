@@ -1,10 +1,11 @@
 import React from 'react'
+import postImg from "../../assets/post.jpg";
 
 const PostHeader = () => {
   return (
     <div className='flex justify-between items-center mb-2'>
       <div className='flex items-center gap-3'>
-        <img src="./post.jpg" className='w-6 md:w-9 rounded-[50%] ' alt="" />
+        <img src={postImg} className='w-6 md:w-9 rounded-[50%] ' alt="" />
         <span className='text-black text-[11px] md:text-[16px] font-medium'>its_me_hossein</span>
         <span className='text-gray-500 text-[11px] md:text-[16px] font-medium'> .1w</span>
       </div>
